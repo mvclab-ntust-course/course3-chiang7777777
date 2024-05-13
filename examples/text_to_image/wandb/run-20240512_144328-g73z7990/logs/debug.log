@@ -1,0 +1,35 @@
+2024-05-12 14:43:28,834 INFO    MainThread:39158 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-12 14:43:28,834 INFO    MainThread:39158 [wandb_setup.py:_flush():76] Configure stats pid to 39158
+2024-05-12 14:43:28,834 INFO    MainThread:39158 [wandb_setup.py:_flush():76] Loading settings from /home/chiang777/.config/wandb/settings
+2024-05-12 14:43:28,834 INFO    MainThread:39158 [wandb_setup.py:_flush():76] Loading settings from /home/chiang777/Lab_hw/W3/diffusers/examples/text_to_image/wandb/settings
+2024-05-12 14:43:28,834 INFO    MainThread:39158 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-12 14:43:28,834 INFO    MainThread:39158 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-12 14:43:28,834 INFO    MainThread:39158 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'examples/text_to_image/train_text_to_image_lora.py', 'program_abspath': '/home/chiang777/Lab_hw/W3/diffusers/examples/text_to_image/train_text_to_image_lora.py', 'program': '/home/chiang777/Lab_hw/W3/diffusers/examples/text_to_image/train_text_to_image_lora.py'}
+2024-05-12 14:43:28,835 INFO    MainThread:39158 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-12 14:43:28,835 INFO    MainThread:39158 [wandb_init.py:_log_setup():520] Logging user logs to /home/chiang777/Lab_hw/W3/diffusers/examples/text_to_image/wandb/run-20240512_144328-g73z7990/logs/debug.log
+2024-05-12 14:43:28,835 INFO    MainThread:39158 [wandb_init.py:_log_setup():521] Logging internal logs to /home/chiang777/Lab_hw/W3/diffusers/examples/text_to_image/wandb/run-20240512_144328-g73z7990/logs/debug-internal.log
+2024-05-12 14:43:28,835 INFO    MainThread:39158 [wandb_init.py:init():560] calling init triggers
+2024-05-12 14:43:28,835 INFO    MainThread:39158 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-05-12 14:43:28,835 INFO    MainThread:39158 [wandb_init.py:init():610] starting backend
+2024-05-12 14:43:28,836 INFO    MainThread:39158 [wandb_init.py:init():614] setting up manager
+2024-05-12 14:43:28,838 INFO    MainThread:39158 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-12 14:43:28,841 INFO    MainThread:39158 [wandb_init.py:init():622] backend started and connected
+2024-05-12 14:43:28,846 INFO    MainThread:39158 [wandb_init.py:init():711] updated telemetry
+2024-05-12 14:43:28,860 INFO    MainThread:39158 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-12 14:43:29,358 INFO    MainThread:39158 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-12 14:43:29,523 INFO    MainThread:39158 [wandb_run.py:_on_init():2405] got version response 
+2024-05-12 14:43:29,523 INFO    MainThread:39158 [wandb_init.py:init():795] starting run threads in backend
+2024-05-12 14:43:30,920 INFO    MainThread:39158 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-12 14:43:30,921 INFO    MainThread:39158 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-12 14:43:30,921 INFO    MainThread:39158 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-12 14:43:30,921 INFO    MainThread:39158 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-12 14:43:30,921 INFO    MainThread:39158 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-12 14:43:30,922 INFO    MainThread:39158 [wandb_run.py:_config_callback():1376] config_cb None None {'pretrained_model_name_or_path': 'runwayml/stable-diffusion-v1-5', 'revision': None, 'variant': None, 'dataset_name': None, 'dataset_config_name': None, 'train_data_dir': './data', 'image_column': 'image', 'caption_column': 'text', 'validation_prompt': 'expansion joint.', 'num_validation_images': 4, 'validation_epochs': 1, 'max_train_samples': None, 'output_dir': './output', 'cache_dir': None, 'seed': 1337, 'resolution': 512, 'center_crop': True, 'random_flip': True, 'train_batch_size': 1, 'num_train_epochs': 112, 'max_train_steps': 1000, 'gradient_accumulation_steps': 4, 'gradient_checkpointing': False, 'learning_rate': 0.001, 'scale_lr': False, 'lr_scheduler': 'cosine', 'lr_warmup_steps': 0, 'snr_gamma': None, 'use_8bit_adam': False, 'allow_tf32': False, 'dataloader_num_workers': 8, 'adam_beta1': 0.9, 'adam_beta2': 0.999, 'adam_weight_decay': 0.01, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'push_to_hub': True, 'hub_token': None, 'prediction_type': None, 'hub_model_id': 'expansion_joint-lora', 'logging_dir': 'logs', 'mixed_precision': None, 'report_to': 'wandb', 'local_rank': -1, 'checkpointing_steps': 500, 'checkpoints_total_limit': None, 'resume_from_checkpoint': None, 'enable_xformers_memory_efficient_attention': False, 'noise_offset': 0, 'rank': 4}
+2024-05-12 17:30:37,219 INFO    MainThread:39158 [wandb_run.py:_finish():2103] finishing run chiang777/text2image-fine-tune/g73z7990
+2024-05-12 17:30:37,219 INFO    MainThread:39158 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-05-12 17:30:37,219 INFO    MainThread:39158 [wandb_run.py:_restore():2326] restore
+2024-05-12 17:30:37,220 INFO    MainThread:39158 [wandb_run.py:_restore():2332] restore done
+2024-05-12 17:30:46,879 INFO    MainThread:39158 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-12 17:30:46,880 INFO    MainThread:39158 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-12 17:30:46,885 INFO    MainThread:39158 [wandb_run.py:_footer_sync_info():3953] logging synced files

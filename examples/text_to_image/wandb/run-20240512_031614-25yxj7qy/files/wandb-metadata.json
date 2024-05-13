@@ -1,0 +1,109 @@
+{
+    "os": "Linux-6.5.0-28-generic-x86_64-with-glibc2.35",
+    "python": "3.12.3",
+    "heartbeatAt": "2024-05-11T19:16:15.142412",
+    "startedAt": "2024-05-11T19:16:14.442993",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--pretrained_model_name_or_path=runwayml/stable-diffusion-v1-5",
+        "--dataset_name=./data",
+        "--dataloader_num_workers=8",
+        "--resolution=512",
+        "--center_crop",
+        "--random_flip",
+        "--train_batch_size=1",
+        "--gradient_accumulation_steps=4",
+        "--max_train_steps=15000",
+        "--learning_rate=1e-04",
+        "--max_grad_norm=1",
+        "--lr_scheduler=cosine",
+        "--lr_warmup_steps=0",
+        "--output_dir=./output",
+        "--push_to_hub",
+        "--hub_model_id=expansion_joint-lora",
+        "--report_to=wandb",
+        "--checkpointing_steps=500",
+        "--validation_prompt=Expansion joint.",
+        "--seed=1337"
+    ],
+    "state": "running",
+    "program": "/home/chiang777/Lab_hw/W3/diffusers/examples/text_to_image/train_text_to_image_lora.py",
+    "codePathLocal": "train_text_to_image_lora.py",
+    "codePath": "examples/text_to_image/train_text_to_image_lora.py",
+    "git": {
+        "remote": "https://github.com/huggingface/diffusers",
+        "commit": "be4afa0bb4384f201c8fe68af536faffefbae661"
+    },
+    "email": null,
+    "root": "/home/chiang777/Lab_hw/W3/diffusers",
+    "host": "chiang777-System-Product-Name",
+    "username": "chiang777",
+    "executable": "/home/chiang777/anaconda3/envs/diffusion_lora/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1500.038,
+        "min": 800.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1500.088,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1500.209,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1499.998,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1500.012,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1500.016,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1500.063,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1500.011,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1500.152,
+            "min": 800.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 483.26544189453125,
+            "used": 77.99695587158203
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 SUPER",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.543766021728516
+    }
+}

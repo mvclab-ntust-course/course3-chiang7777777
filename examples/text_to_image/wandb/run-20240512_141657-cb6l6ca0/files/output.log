@@ -1,0 +1,400 @@
+05/12/2024 14:16:59 - INFO - __main__ - ***** Running training *****
+05/12/2024 14:16:59 - INFO - __main__ -   Num examples = 33
+05/12/2024 14:16:59 - INFO - __main__ -   Num Epochs = 1667
+05/12/2024 14:16:59 - INFO - __main__ -   Instantaneous batch size per device = 1
+05/12/2024 14:16:59 - INFO - __main__ -   Total train batch size (w. parallel, distributed & accumulation) = 4
+05/12/2024 14:16:59 - INFO - __main__ -   Gradient Accumulation steps = 4
+05/12/2024 14:16:59 - INFO - __main__ -   Total optimization steps = 15000
+
+
+
+
+
+
+
+
+
+
+
+Steps:   0%|                                                                 | 9/15000 [00:24<9:38:08,  2.31s/it, lr=0.0001, step_loss=0.0138]05/12/2024 14:17:24 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+model_index.json: 100%|███████████████████████████████████████████████████████████████████████████████████████| 541/541 [00:00<00:00, 953kB/s]
+safety_checker/config.json: 100%|████████████████████████████████████████████████████████████████████████| 4.72k/4.72k [00:00<00:00, 7.75MB/s]
+(…)ature_extractor/preprocessor_config.json: 100%|████████████████████████████████████████████████████████████| 342/342 [00:00<00:00, 685kB/s]
+safety_checker/config.json:   0%|                                                                                 | 0.00/4.72k [00:00<?, ?B/s]
+Fetching 13 files:   8%|██████▋                                                                                | 1/13 [00:00<00:06,  1.99it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.13 [01:48<04:24, 29.33s/it]
+                                                                                                                                              Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  6.21it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.41it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.45it/s]
+/home/chiang777/anaconda3/envs/lora/lib/python3.12/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at /opt/conda/conda-bld/pytorch_1712608847532/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+
+
+
+
+
+
+
+
+
+
+
+Steps:   0%|                                                              | 18/15000 [03:37<22:01:29,  5.29s/it, lr=0.0001, step_loss=0.00241]05/12/2024 14:20:37 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                                                                              Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  6.32it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.61it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:   0%|                                                                | 27/15000 [05:03<14:48:28,  3.56s/it, lr=0.0001, step_loss=0.375]05/12/2024 14:22:02 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                                                                              Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  6.28it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.53it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.57it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:   0%|▏                                                              | 36/15000 [06:29<14:31:20,  3.49s/it, lr=0.0001, step_loss=0.0292]05/12/2024 14:23:28 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                                                                              Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  6.01it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.34it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.14it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:   0%|▏                                                                | 45/15000 [07:55<14:34:20,  3.51s/it, lr=0.0001, step_loss=0.35]05/12/2024 14:24:54 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                                                                              Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  6.29it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.57it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.63it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:   0%|▏                                                               | 54/15000 [09:21<14:34:02,  3.51s/it, lr=0.0001, step_loss=0.223]05/12/2024 14:26:21 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  6.33it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.57it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.61it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:   0%|▎                                                             | 63/15000 [10:48<14:36:24,  3.52s/it, lr=0.0001, step_loss=0.00284]05/12/2024 14:27:47 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                                                                              Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  6.22it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.49it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.51it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:   0%|▎                                                             | 72/15000 [12:14<14:36:52,  3.52s/it, lr=0.0001, step_loss=0.00885]05/12/2024 14:29:14 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                                                                              Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  5.59it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.12it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  7.94it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:   1%|▎                                                             | 81/15000 [13:41<14:37:43,  3.53s/it, lr=0.0001, step_loss=0.00663]05/12/2024 14:30:41 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  5.79it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.25it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.16it/s]
+
+
+
+
+
+
+
+
+
+
+
+Steps:   1%|▍                                                               | 90/15000 [15:08<14:36:23,  3.53s/it, lr=0.0001, step_loss=0.043]05/12/2024 14:32:07 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: expansion joint..
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                                                                              Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of runwayml/stable-diffusion-v1-5.| 0/7 [00:00<?, ?it/s]
+                                                                                                                                              Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...:  43%|████████████████████████████████▏                                          | 3/7 [00:00<00:00,  5.61it/s]Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.06it/s]
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of runwayml/stable-diffusion-v1-5.
+{'scaling_factor', 'latents_mean', 'latents_std', 'force_upcast'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of runwayml/stable-diffusion-v1-5.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  7.86it/s]
+Steps:   1%|▍                                                               | 90/15000 [16:09<14:36:23,  3.53s/it, lr=0.0001, step_loss=0.124]
+Steps:   1%|▍                                                              | 91/15000 [16:12<89:31:11, 21.62s/it, lr=0.0001, step_loss=0.0154]
+Steps:   1%|▍                                                             | 91/15000 [16:13<89:31:11, 21.62s/it, lr=0.0001, step_loss=0.00872]
+Steps:   1%|▍                                                              | 92/15000 [16:15<66:33:42, 16.07s/it, lr=0.0001, step_loss=0.0262]
+Steps:   1%|▍                                                             | 92/15000 [16:17<66:33:42, 16.07s/it, lr=0.0001, step_loss=0.00851]
+Steps:   1%|▍                                                              | 93/15000 [16:19<50:30:04, 12.20s/it, lr=0.0001, step_loss=0.0489]
+Steps:   1%|▍                                                              | 94/15000 [16:21<39:16:22,  9.48s/it, lr=0.0001, step_loss=0.0578]
+Steps:   1%|▍                                                              | 94/15000 [16:23<39:16:22,  9.48s/it, lr=0.0001, step_loss=0.0497]
+Steps:   1%|▍                                                              | 95/15000 [16:25<31:25:11,  7.59s/it, lr=0.0001, step_loss=0.0473]
+Steps:   1%|▍                                                              | 95/15000 [16:25<31:25:11,  7.59s/it, lr=0.0001, step_loss=0.0473]
+Steps:   1%|▍                                                              | 95/15000 [16:25<31:25:11,  7.59s/it, lr=0.0001, step_loss=0.0473]
+Steps:   1%|▍                                                              | 95/15000 [16:25<31:25:11,  7.59s/it, lr=0.0001, step_loss=0.0473]
+Steps:   1%|▍                                                              | 95/15000 [16:25<31:25:11,  7.59s/it, lr=0.0001, step_loss=0.0473]
+Steps:   1%|▍                                                              | 95/15000 [16:25<31:25:11,  7.59s/it, lr=0.0001, step_loss=0.0473]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of runwayml/stable-diffusion-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.56it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.55it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.54it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.54it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.54it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.54it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.54it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.54it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.54it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.  | 4/7 [00:00<00:00,  5.54it/s]Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+KeyboardInterruptang777/anaconda3/envs/lora/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impln forwardoaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
+KeyboardInterruptang777/anaconda3/envs/lora/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impln forwardoaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of runwayml/stable-diffusion-v1-5.-v1-5.
