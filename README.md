@@ -25,7 +25,7 @@ choose "BF16"
 
 ## Training 
 ### Put training data under ``` ./data ```
-"My training data consists of 33 images of expansion joints, such as the one below."
+My training data consists of 33 images of expansion joints, such as the one below.
 
 <img src="https://i.imgur.com/soA5ORX.png" alt="image" style="width: 50%; height: auto;">
 
