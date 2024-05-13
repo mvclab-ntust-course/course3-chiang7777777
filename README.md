@@ -25,7 +25,7 @@ choose "BF16"
 
 ## Training 
 ### Put training data under ``` ./data ```
-My training be like:
+"My training data consists of 33 images of expansion joints, such as the one below."
 
 <img src="https://i.imgur.com/soA5ORX.png" alt="image" style="width: 50%; height: auto;">
 
@@ -80,7 +80,6 @@ Relevant parameters :
 * --output_dir : Directory to save output images, default="./output_images"
 * --prompt : Text prompt for image generation, default="expansion joint"
 * --num : Number of images to generate, default=1
-
 
 
 
