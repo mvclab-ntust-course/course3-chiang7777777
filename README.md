@@ -27,7 +27,7 @@ choose "BF16"
 ### Put training data under ``` ./data ```
 My training be like:
 
-<img src="https://hackmd.io/_uploads/ryTUd-ymC.png" alt="image" style="width: 50%; height: auto;">
+<img src="https://i.imgur.com/soA5ORX.png" alt="image" style="width: 50%; height: auto;">
 
 ### Login huggingface & wandb
 ```bash    
@@ -69,7 +69,7 @@ accelerate launch --mixed_precision="bf16"  train_text_to_image_lora.py \
   --seed=1337 
 ```
 ### Training loss
-![image](https://hackmd.io/_uploads/S1qq5ZymC.png)
+![image](https://i.imgur.com/K06NgCn.png)
 
 ## Inference
 ```bash    
